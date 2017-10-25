@@ -1,4 +1,4 @@
-qtscript-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
+qtscript-opensource-src (5.9.1+dfsg+ubports) xenial; urgency=medium
 
   [ Dmitry Shachnev ]
   * Drop qtscript5-private-dev package, there are no remaining reverse
