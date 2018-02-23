@@ -1,4 +1,34 @@
-qtscript-opensource-src (5.9.1+dfsg+ubports) xenial; urgency=medium
+qtscript-opensource-src (5.9.3+dfsg-0ubports2) xenial; urgency=medium
+
+  * Build for xenial
+
+ -- Marius <mariogrip@ubuntu.com>  Fri, 23 Feb 2018 02:16:57 +0100
+
+qtscript-opensource-src (5.9.3+dfsg-0ubuntu1) bionic; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not call qmake directly anymore (Closes: #880934). Depend upon
+    debhelper >= 10.9.2~ to get the proper fix.
+
+  [ Simon Quigley ]
+  * New upstream release.
+  * Bump build deps.
+  * Bump Standards-version to 4.1.2, no changes needed.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 30 Nov 2017 21:01:24 -0600
+
+qtscript-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Use debhelper compat level 10 and dh_missing.
+  * Update debian/libqt5script5.symbols from buildds’ logs.
+  * Stop using deprecated Priority: extra.
+  * Bump Standards-Version to 4.1.1.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 21:03:34 +0300
+
+qtscript-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Drop qtscript5-private-dev package, there are no remaining reverse
